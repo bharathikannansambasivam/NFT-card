@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+
+}
+.container{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+   
+}
+.card{
+    height: 650px;
+    width: 380px;
+    font-family: 'Outfit', sans-serif;
+    flex-direction: column;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 15px;
+}
+.image{
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+    height: 320px;
+    width: 320px;
+    margin-top:30px;
+border-radius: 10px;
+}
+
+.Equilibrium {
+    margin: 1.5rem;
+
+}
+.Equilibrium h2{
+    color: white;
+margin-bottom: 20px;
+}
+
+.Equilibrium p{
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+color:  hsl(215, 51%, 70%);
+
+}
+
+.section{
+    display: flex;
+    margin: 0 1.5rem;
+    justify-content: space-between;
+
+    
+
+}
+
+.ETH, .validity img{
+    height: 100%;
+}
+.ETH, .validity{
+    display: flex;
+    gap: 10px;
+    width: 40%;
+}
+.ETH h3{
+    color:hsl(178, 100%, 50%);
+}
+.validity , .footer h3{
+    color:  hsl(215, 51%, 70%);
+}
+.footer{
+    display: flex;
+    align-items: center;
+    margin: 30px 40px 40px 20px;   
+     gap: 10px;
+padding:  15px 0;
+    border-top: 1px solid white;
+}
+.footer img{
+    height: 45px; 
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.footer h3 span{
+    color:white ;
+}
